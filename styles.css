@@ -1,0 +1,39 @@
+.boardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.xPiece {
+    height: 100px;
+    width: 100px;
+}
+
+.gameBoard {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    height: 50%;
+    width: fit-content;
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #a9a9a9;
+}
+
+#cell1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+#cell2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+#cell3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-start: 3;
+}
